@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Catalogue</title>
+  <link rel="stylesheet" href="css/catalogue.css">
+</head>
+<body>
+  <h1>Book Catalogue</h1>
+  <table>
+    <thead>
+      <tr><th>Title</th><th>Author</th><th>ISBN</th><th>Availability</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>The Alchemist</td><td>Paulo Coelho</td><td>9780061122415</td><td>Available</td></tr>
+      <tr><td>1984</td><td>George Orwell</td><td>9780451524935</td><td>Borrowed</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Register a New Book</h2>
+  <form>
+    <input type="text" placeholder="Title" required>
+    <input type="text" placeholder="Author" required>
+    <input type="text" placeholder="ISBN" required>
+    <select>
+      <option value="Available">Available</option>
+      <option value="Borrowed">Borrowed</option>
+    </select>
+    <button type="submit">Add Book</button>
+  </form>
+</body>
+</html>
+

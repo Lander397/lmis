@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    background: #fff;
+    margin: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  section p {
+    padding: 5px 0;
+  }
